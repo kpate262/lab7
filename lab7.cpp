@@ -9,8 +9,8 @@ struct Node{
 void printL(Node *list){
   Node *p = list;
   while(p != NULL){
-    printf("%d\n", p->d); 
-    p = p->next;
+    printf("%d\n", p->d);
+    p = p->next; 
   }
 }
 
